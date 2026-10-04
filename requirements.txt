@@ -1,0 +1,24 @@
+# Deep learning / computer vision
+# GPU build (optional):  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+torch>=2.3
+torchvision>=0.18
+pillow>=10.0
+
+# Vector similarity search
+faiss-cpu>=1.8
+
+# Data handling
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5        # t-SNE / PCA in the notebooks
+
+# App
+streamlit>=1.50
+
+# Notebooks & plots
+jupyterlab>=4.0
+matplotlib>=3.8
+seaborn>=0.13
+
+# Tests
+pytest>=8.0

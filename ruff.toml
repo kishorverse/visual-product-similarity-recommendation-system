@@ -1,0 +1,6 @@
+# PEP 8 style + pyflakes + naming checks:  python -m ruff check .
+line-length = 110
+exclude = ["notebooks"]
+
+[lint]
+select = ["E", "W", "F", "N"]
